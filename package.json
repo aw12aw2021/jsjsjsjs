@@ -1,15 +1,24 @@
 {
-  "name": "hello world",
-  "version": "test",
-  "description": "test",
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "A simple Node.js application",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No tests defined\" && exit 1"
   },
-  "author": "aw12aw2021",
+  "author": "aw12aw2021 <email@example.com>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aw12aw2021/jsjsjsjs.git"
+  },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   },
   "engines": {
     "node": ">=14.0.0"
