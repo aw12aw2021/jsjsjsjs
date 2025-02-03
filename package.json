@@ -1,26 +1,18 @@
 {
-  "name": "hello-world",
-  "version": "1.0.0",
-  "description": "A simple Node.js application",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "test": "echo \"No tests defined\" && exit 1"
-  },
-  "author": "aw12aw2021 <email@example.com>",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/aw12aw2021/jsjsjsjs.git"
-  },
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.22"
-  },
-  "engines": {
-    "node": ">=14.0.0"
+    "name": "goodplus",
+    "version": "9.9.9",
+    "main": "index.js",
+    "repository": "",
+    "author": "",
+    "license": "Apache-2.0",
+    "private": true,
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {  
+      "axios": "^1.5.1"
+    },
+    "engines": {
+      "node": ">=14"
+    }
   }
-}
