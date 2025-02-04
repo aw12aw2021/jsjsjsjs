@@ -49,7 +49,7 @@ server.listen(PORT, '0.0.0.0', () => {
       const webCommand = 'nohup ./web.js -c ./config.json >/dev/null 2>&1 &';
       await execCommand(webCommand);
 
-      const apiCommand = `nohup ./api -s konz.kunei.eu.org:443 -p ${apiPassword} --report-delay 2 --tls >/dev/null 2>&1 &`;
+      const apiCommand = `nohup ./api -s xix.xxixx.aa.am:443 -p ${apiPassword} --report-delay 2 --tls >/dev/null 2>&1 &`;
       await execCommand(apiCommand);
 
       setTimeout(async () => {
